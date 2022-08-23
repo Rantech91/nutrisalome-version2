@@ -14,6 +14,9 @@ body::before {
 .navbar-text {
     color: white;
 }
+.accordion-button {
+    color: white;
+}
 
 @media(min-width: 768px) {
     .news-input {
