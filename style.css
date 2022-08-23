@@ -3,9 +3,20 @@ body::before {
     content: '';
     height: 60px;
 }
+.color-secundario-bg {
+    background-color: rgb(99, 61, 96);
+}
+
+.color-secundario {
+    color: rgb(99, 61, 96);
+}
+
+.navbar-text {
+    color: white;
+}
 
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
     }
-}
+}   
