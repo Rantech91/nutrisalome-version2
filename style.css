@@ -18,6 +18,12 @@ body::before {
     color: white;
 }
 
+img {
+    border-radius: 10px;
+}
+.mapa {
+    border-radius: 30px;
+}
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
@@ -26,5 +32,6 @@ body::before {
 @media(max-width: 575px) {
     .img-perfil{
         width: 100% !important;
+        border-radius: 10px;
     }
 }
